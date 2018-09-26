@@ -1,0 +1,9 @@
+<script>
+  $(document).ready(function() {
+    $('button').addClass('animated');
+    $('.btn').addClass('shake');
+    $('#target1').addClass('btn-primary');
+  });
+</script>
+
+//We essentially repeated the last few challenges with different animation choices and more condensed code
