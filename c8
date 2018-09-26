@@ -1,0 +1,8 @@
+<script>
+  $(document).ready(function() {
+    $('#target1').css('color','red');
+  });
+</script>
+
+//Use the '.css()' method to change CSS directly
+//The declaration uses a comma instead of a semicolon and the property/value must be in quotes
