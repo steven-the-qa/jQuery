@@ -1,0 +1,12 @@
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
+    $("#target2").appendTo("#right-well");
+    $('#target5').clone().appendTo('#left-well');
+  });
+</script>
+
+//The '.clone()' method lets you make a copy of an element in its current location
+//Function chaining lets you do multiple things in fewer lines in jQuery, such as using clone() and then appendTo()
