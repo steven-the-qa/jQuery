@@ -1,0 +1,15 @@
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");
+    $("#target1").prop("disabled", true);
+    $("#target4").remove();
+    $("#target2").appendTo("#right-well");
+    $("#target5").clone().appendTo("#left-well");
+    $("#target1").parent().css("background-color", "red");
+    $("#right-well").children().css("color", "orange");
+    $('.target:nth-child(2)').addClass('animated bounce');
+  });
+</script>
+
+//The 'nth-child()' function lets you select the nth element with the given class ('.target') or other specification
+//Here we give the class 'bounce' to the 2nd child with class 'target' of any parent element in the code 
