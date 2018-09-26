@@ -1,0 +1,7 @@
+<script>
+  $(document).ready(function() {
+    $("button").addClass("animated bounce");
+  });
+</script>
+
+//Used the Animate.css library to add the 'bounce' class to the button elements
