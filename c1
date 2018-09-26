@@ -1,0 +1,10 @@
+<!-- Only change code above this line. -->
+<script>
+  $(document).ready(function() {
+  });
+</script>
+<div class="container-fluid">
+
+//Put a script tag at the top of the jQuery Playground code from the Bootstrap challenges
+//The 'document ready' just means that the code executed in the document ready function is going to run only after HTML is rendered
+//AKA only after the page is READY
