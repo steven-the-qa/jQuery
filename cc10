@@ -1,0 +1,9 @@
+<script>
+  $(document).ready(function() {
+    $("#target1").css("color", "red");
+    $('#target4').html('<em>#target4</em>');
+  });
+</script>
+
+//You can use the '.html()' method to edit HTML of any element
+//Here we italicized the text of the button with id 'target4'
