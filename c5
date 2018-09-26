@@ -1,0 +1,8 @@
+<script>
+  $(document).ready(function() {
+
+
+  });
+</script>
+
+//Just delete the jQuery functions
